@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="m-5">
+    <header>
+        <div class="has-text-centered py-5">
+            <h1 class="title has-text-success-light is-2">Jokes</h1>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div>
+                <form method="post" action="/" id="jokesForm">
+                    <div>
+                        <div>
+                            <div class="columns py-5 px-5">
+                                <div id="fieldLanguage" class="column has-text-centered">
+                                    <label class="label is-size-4">Language</label>
+                                    <div>
+                                        <select name="language" id="selLang" class="select is-medium">
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="fieldCategory" class="column has-text-centered">
+                                    <label class="label is-size-4">Category</label>
+                                    <div>
+                                        <select name="category" id="selCat" class="select is-medium">
+                                            <option value="any" selected>ANY</option>
+                                            <option value="neutral">Neutral</option>
+                                            <option value="chuck">Chuck Norris</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="fieldNumber" class="column has-text-centered">
+                                    <label class="label is-size-4">Number</label>
+                                    <div>
+                                        <select name="number" id="selNum" class="select is-medium">
+                                            
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="fieldNumber" class="column has-text-centered">
+                                    <label class="label is-size-4">Joke ID</label>
+                                    <div>
+                                        <input name="id" id="jokeId" class="select is-medium">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="has-text-centered py-5">
+                                <button type="submit" id="btnAmuse" class="button has-background-success has-text-black is-large">Entertain Me</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <div id="jokes" class="container is-max-desktop">
+                <!-- Jokes go here -->
+            </div>
+            <div id="errors" class="container is-max-desktop">
+                <!-- Errors go here -->
+            </div>
+        </div>
+    </main>
+</body>
+</html>
