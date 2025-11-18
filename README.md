@@ -16,7 +16,7 @@ Built with **HTML, CSS (Bulma), and JavaScript**, and deployed via [GitHub Pages
 - Clean UI using **Bulma**
 - Fetches JSON data from backend API
 - Graceful error handling
-- Fully deployed [online](https://abdullahali785.github.io/Jokes/)
+- Fully deployed online
 
 ---
 
