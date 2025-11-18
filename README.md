@@ -1,6 +1,6 @@
 # 🎉 Jokes
 
-A simple, user-friendly web client that interacts with the Jokes API.  
+A simple, user-friendly web client that interacts with the [Jokes API](https://github.com/abdullahali785/JokesAPI).  
 Users can select **language**, **category**, **number of jokes**, or request a **specific joke by ID**.  
 Built with **HTML, CSS (Bulma), and JavaScript**, and deployed via [GitHub Pages](https://abdullahali785.github.io/Jokes/).
 
