@@ -28,3 +28,6 @@ Built with **HTML, CSS (Bulma), and JavaScript**, and deployed via [GitHub Pages
 - [GitHub Pages](https://abdullahali785.github.io/Jokes/)
 
 ---
+
+## Landing Page
+![UI](ui.png)
