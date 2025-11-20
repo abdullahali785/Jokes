@@ -30,4 +30,4 @@ Built with **HTML, CSS (Bulma), and JavaScript**, and deployed via [GitHub Pages
 ---
 
 ## Landing Page
-![UI](ui.png)
+![UI](UI.png)
